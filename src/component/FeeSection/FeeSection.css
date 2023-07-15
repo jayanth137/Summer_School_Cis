@@ -80,7 +80,7 @@ padding: 10px 0;  }
     cursor: pointer;
     font-family: 'Poppins';
   }
-  span{
+  .Ticket span{
     color: #E03A3C;
     font-size: 4rem;
   }

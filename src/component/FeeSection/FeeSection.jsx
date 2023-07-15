@@ -40,7 +40,7 @@ const PricingTable = () => {
   return (
     <div>
       <h1>
-        Choose Your <span>Ticket</span>
+        Choose Your <span className="Ticket">Ticket</span>
       </h1>
       <div className="pricing-card-container">
         {packages.map((pkg, index) => (
