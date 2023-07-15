@@ -1,10 +1,11 @@
 import React from 'react';
 import './FeeSection.css';
+import { Link } from 'react-router-dom';
 
 const PricingTable = () => {
   const packages = [
     {
-      name: 'Regular Ticket (Accommodation+Food)',
+      name: 'Regular Ticket (Accommodation + Food)',
       price: '₹ 2500',
       benefits: [
         'Includes Accomodation(6 Days-5 Nights), Meals(4 times) and Student Kit.',
@@ -12,7 +13,7 @@ const PricingTable = () => {
       ],
     },
     {
-      name: 'Regular Ticket  (No Accommodation/Food)',
+      name: 'Regular Ticket  (No Accommodation / Food)',
       price: '₹ 1375',
       benefits: [
         'No Accomodation and Meal will be provided to the participants.',
@@ -38,7 +39,7 @@ const PricingTable = () => {
   ];
 
   return (
-    <div>
+    <div id="Fee">
       <h1>
         Choose Your <span className="Ticket">Ticket</span>
       </h1>
@@ -46,7 +47,7 @@ const PricingTable = () => {
         {packages.map((pkg, index) => (
           <div key={index} className="pricing-card">
             <div className="Conflex">
-              <h3>{pkg.name}</h3>
+              <h4>{pkg.name}</h4>
 
               <ul>
                 {pkg.benefits.map((benefit, index) => (
@@ -56,7 +57,9 @@ const PricingTable = () => {
             </div>
             <div className="PriceFlex">
               <h2 className="price"> {pkg.price}</h2>
-              <button margin="auto">Buy Now</button>
+              <Link to="https://konfhub.com/summerschool#tickets">
+                <button margin="auto">Buy Now</button>
+              </Link>
             </div>
           </div>
         ))}

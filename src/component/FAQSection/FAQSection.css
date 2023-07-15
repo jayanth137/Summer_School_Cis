@@ -134,9 +134,8 @@
     .faq_section-questions {
         max-width: 90%;
     }
-    .faq_section-image {
-        display: none;
-    }
+   
+   
     .faq_section-part2 {
         flex-direction: column;
         gap: 2rem;
@@ -167,6 +166,7 @@
         font-size: 17px;
         padding: 12px 0;
     }
+    
     .section7-answer {
         font-size: 15px;
     }

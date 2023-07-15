@@ -1,32 +1,32 @@
-import React, { useEffect } from "react";
-import { useRef, useState } from "react";
-import "./Navbar.css";
-import summerschool from "./SUMMER SCHOOL_logo.png";
+import React, { useEffect } from 'react';
+import { useRef, useState } from 'react';
+import './Navbar.css';
+import summerschool from './SUMMER SCHOOL_logo.png';
 
-import { motion } from "framer-motion";
-import { headerVariants } from "../../motionUtils";
-import { Link, useNavigate } from "react-router-dom";
-import Dropdown from "./dropdown/Dropdown";
+import { motion } from 'framer-motion';
+import { headerVariants } from '../../motionUtils';
+import { Link, useNavigate } from 'react-router-dom';
+import Dropdown from './dropdown/Dropdown';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const hamburger = useRef(null);
   function toggleMenu() {
     setIsOpen(!isOpen);
-    hamburger.current.classList.toggle("active");
+    hamburger.current.classList.toggle('active');
   }
   const navigate = useNavigate();
   let element;
 
   const gotoId = (id) => {
-    if (window.location.pathname !== "/") {
-      navigate("/");
+    if (window.location.pathname !== '/') {
+      navigate('/');
       setTimeout(() => {
         element = document.getElementById(id);
-        element.scrollIntoView({ behavior: "smooth", block: "center" });
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }, 500);
     } else {
-      window.location.href = "#" + id;
+      window.location.href = '#' + id;
     }
   };
 
@@ -41,10 +41,10 @@ const Navbar = () => {
       }
     };
 
-    document.addEventListener("mousedown", handler);
+    document.addEventListener('mousedown', handler);
 
     return () => {
-      document.removeEventListener("mousedown", handler);
+      document.removeEventListener('mousedown', handler);
     };
   });
 
@@ -58,7 +58,7 @@ const Navbar = () => {
     >
       <header className="summerschool__navbar ">
         <div className="summerschool__navbar-body" ref={menuRef}>
-          <Link to={"/"}>
+          <Link to={'/'}>
             <div className="summerschool__navbar-logo">
               <img src={summerschool} alt="logo" />
             </div>
@@ -69,7 +69,7 @@ const Navbar = () => {
                 <p
                   /* href="#home" */
                   onClick={() => {
-                    gotoId("home");
+                    gotoId('home');
                     toggleMenu();
                   }}
                 >
@@ -79,7 +79,7 @@ const Navbar = () => {
               <li className="summerschool__navbar-navitem">
                 <p
                   onClick={() => {
-                    gotoId("aboutus");
+                    gotoId('aboutus');
                     toggleMenu();
                   }}
                 >
@@ -89,39 +89,51 @@ const Navbar = () => {
               <li className="summerschool__navbar-navitem">
                 <p
                   onClick={() => {
-                    gotoId("timeline");
+                    gotoId('timeline');
                     toggleMenu();
                   }}
                 >
-                  <h3 className="summerschool__navbar-menu-heading">Timeline</h3>
+                  <h3 className="summerschool__navbar-menu-heading">
+                    Timeline
+                  </h3>
                 </p>
               </li>
-
 
               <li className="summerschool__navbar-navitem">
                 <p
                   onClick={() => {
-                    gotoId("venue");
+                    gotoId('venue');
                     toggleMenu();
                   }}
                 >
                   <h3 className="summerschool__navbar-menu-heading">Venue</h3>
                 </p>
               </li>
+              <li className="summerschool__navbar-navitem">
+                <p
+                  onClick={() => {
+                    gotoId('Fee');
+                    toggleMenu();
+                  }}
+                >
+                  <h3 className="summerschool__navbar-menu-heading">Fee</h3>
+                </p>
+              </li>
 
               <li className="summerschool__navbar-navitem">
                 <p
                   onClick={() => {
-                    gotoId("sponsers");
+                    gotoId('sponsers');
                     toggleMenu();
                   }}
                 >
-                  <h3 className="summerschool__navbar-menu-heading">Sponsers</h3>
+                  <h3 className="summerschool__navbar-menu-heading">
+                    Sponsors
+                  </h3>
                 </p>
               </li>
 
-              
-              <div style={{ position: "relative" }}>
+              <div style={{ position: 'relative' }}>
                 <li className="summerschool__navbar-navitem">
                   <p
                     onClick={() => {
@@ -140,8 +152,9 @@ const Navbar = () => {
         </div>
       </header>
       <header
-        className={`summerschool__navbar-hamburger ${isOpen ? `hamburger-open` : ``
-          }`}
+        className={`summerschool__navbar-hamburger ${
+          isOpen ? `hamburger-open` : ``
+        }`}
       >
         <div className="summerschool__navbar-hamburger-body">
           <nav className="summerschool__navbar-hamburger-nav">
@@ -173,21 +186,22 @@ const Navbar = () => {
             <div
               className="summerschool__navbar-hamburger-logo"
               style={{
-                display: "none",
-                transform: "scale(2)",
-                marginTop: "40px",
+                display: 'none',
+                transform: 'scale(2)',
+                marginTop: '40px',
               }}
             ></div>
           </nav>
         </div>
         <ul
-          className={`summerschool__navbar-hamburger-navlist ${isOpen ? `activeMenu slide-bottom` : ``
-            }`}
+          className={`summerschool__navbar-hamburger-navlist ${
+            isOpen ? `activeMenu slide-bottom` : ``
+          }`}
         >
           <li className="summerschool__navbar-hamburger-navitem">
             <p
               onClick={() => {
-                gotoId("home");
+                gotoId('home');
                 toggleMenu();
               }}
             >
@@ -199,7 +213,7 @@ const Navbar = () => {
           <li className="summerschool__navbar-hamburger-navitem">
             <p
               onClick={() => {
-                gotoId("aboutus");
+                gotoId('aboutus');
                 toggleMenu();
               }}
             >
@@ -211,7 +225,7 @@ const Navbar = () => {
           <li className="summerschool__navbar-hamburger-navitem">
             <p
               onClick={() => {
-                gotoId("timeline");
+                gotoId('timeline');
                 toggleMenu();
               }}
             >
@@ -220,12 +234,11 @@ const Navbar = () => {
               </h3>
             </p>
           </li>
-          
 
           <li className="summerschool__navbar-hamburger-navitem">
             <p
               onClick={() => {
-                gotoId("lectures");
+                gotoId('lectures');
                 toggleMenu();
               }}
             >
@@ -244,7 +257,7 @@ const Navbar = () => {
           <li className="summerschool__navbar-hamburger-navitem">
             <p
               onClick={() => {
-                gotoId("sponsers");
+                gotoId('sponsers');
                 toggleMenu();
               }}
             >
@@ -253,11 +266,11 @@ const Navbar = () => {
               </h3>
             </p>
           </li>
-          
+
           <li className="summerschool__navbar-hamburger-navitem">
             <p
               onClick={() => {
-                gotoId("faq");
+                gotoId('faq');
                 toggleMenu();
               }}
             >

@@ -12,8 +12,8 @@ const faqs = [{
         answer: "Participation in IEEE CIS Summer school is very nominal!! The fee includes meals, snacks, and beverages onsite at the venue.",
     },
     {
-        question: "Is it team/individual participation? ",
-        answer: "This is an individual participating event.",
+        question: "Is it team or individual participation ?",
+        answer: "IEEE CIS Summer School is an individual participating event anyone can join.                                                                   ",
     },
     {
         question: "Who can participate?",
