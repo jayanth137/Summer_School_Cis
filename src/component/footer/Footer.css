@@ -1,0 +1,231 @@
+.summerschool__footer {
+    font-family: var(--font-family);
+    color: white;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px auto;
+    overflow-y: hidden;
+    background-color: #202020 !important;
+}
+
+.summerschool__footer-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.summerschool__footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.summerschool__footer-logo-summerschool {
+    width: 5rem;
+    height: auto;
+}
+
+.summerschool__footer-logo-tcp {
+    width: 13rem;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.summerschool__footer-social-container {
+    width: 100%;
+}
+
+.summerschool__footer-social-links-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 0.5rem;
+    width: 99%;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.summerschool__footer-social-links-container a svg {
+    transition: all 0.2s ease-in-out;
+    margin-left: 20px;
+}
+
+.summerschool__footer-social-links-container a svg:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+    fill: #fff;
+}
+
+.summerschool__footer-social-text {
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    width: 99%;
+    /*  margin-top: 20px; */
+}
+
+.summerschool__footer-container2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    overflow-x: hidden;
+    margin-top: 1rem;
+}
+
+.summerschool__footer-container2-left {
+    width: 100%;
+    min-height: 100%;
+    border-radius: 0.75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.summerschool__footer-container2-left-content {
+    display: flex;
+    background-color: rgba(0, 8, 17, 1);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem;
+    border-radius: 0.75rem;
+}
+
+.summerschool__footer-container2-left-content img {
+    height: 130px;
+    width: auto;
+    margin-left: 1rem;
+}
+
+.summerschool__footer-container2-left-text {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.summerschool__footer-container2-left-text h4 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.summerschool__footer-container2-left-text p {
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.summerschool__footer-container2-right {
+    background: transparent;
+    padding: 10px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.summerschool__footer-container2-right-links {
+    text-decoration: none;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem 0px 0.5rem 0.5rem;
+}
+
+.summerschool__footer-container2-right-text {
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.summerschool__footer-container3 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.summerschool__footer-social-team a {
+    text-decoration: underline;
+    color: var(--primary-c);
+}
+
+.summerschool__footer-social-team a:hover {
+    color: white;
+}
+
+.summerschool__footer-back-to-top p {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0px;
+    cursor: pointer;
+    
+}
+
+.summerschool__footer-back-to-top p:hover {
+    color: var(--primary-c);
+}
+
+
+@media screen and (max-width: 650px) {
+    .summerschool__footer-container1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+    .summerschool__footer-back-to-top {
+        display: none;
+    }
+    .summerschool__footer-social-links-container {
+        justify-content: center;
+    }
+    .summerschool__footer-social-text {
+        text-align: center;
+    }
+    .summerschool__footer-container2 {
+        margin: 2rem 0;
+    }
+    .summerschool__footer-container2-left-text h4 {
+        font-size: 16px;
+    }
+    .summerschool__footer-container2-left-text p {
+        font-size: 12px;
+    }
+    .summerschool__footer-container2-left-content img {
+        height: 80px;
+    }
+    .summerschool__footer-container2-right {
+        background: transparent;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: row;
+    }
+    .summerschool__footer-social-team {
+        font-size: 12px;
+    }
+    .summerschool__footer-social-map {
+        font-size: 12px;
+    }
+    .summerschool__footer-social-map svg {
+        width: 16px;
+        height: 16px;
+    }
+}

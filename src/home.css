@@ -1,0 +1,31 @@
+.summerschool__navbar-container {
+    z-index: 9999;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+.summerschool__footer-container {
+    width: 100%;
+    background-color: rgba(32, 32, 32, 1);
+    margin-top: 10rem;
+    overflow-x: hidden;
+}
+
+.summerschool_container {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.summerschool_container_vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
+
+@media screen and (max-width: 768px) {
+    .summerschool_container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
