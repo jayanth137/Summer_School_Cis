@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e113fc2.css",
-    "main.js": "/static/js/main.7e2fdc7a.js",
+    "main.css": "/static/css/main.db810d88.css",
+    "main.js": "/static/js/main.818e9687.js",
     "static/js/787.334d8fa4.chunk.js": "/static/js/787.334d8fa4.chunk.js",
     "static/media/ieeecusb.png": "/static/media/ieeecusb.6e55473975f99e7e3407.png",
+    "static/media/konfhub.png": "/static/media/konfhub.72388f77ff7c05eda549.png",
     "static/media/ieeecis.png": "/static/media/ieeecis.d001334b41f052992f28.png",
     "static/media/file110.png": "/static/media/file110.1c082e1b02a155f43ed1.png",
     "static/media/SUMMER SCHOOL_logo.png": "/static/media/SUMMER SCHOOL_logo.e572cff9335e225d7b9b.png",
@@ -11,12 +12,12 @@
     "static/media/ieee.png": "/static/media/ieee.a3b26f989c928f7fe08e.png",
     "static/media/chandigarhuniversity.png": "/static/media/chandigarhuniversity.3483f9ba413d5dc95b71.png",
     "index.html": "/index.html",
-    "main.7e113fc2.css.map": "/static/css/main.7e113fc2.css.map",
-    "main.7e2fdc7a.js.map": "/static/js/main.7e2fdc7a.js.map",
+    "main.db810d88.css.map": "/static/css/main.db810d88.css.map",
+    "main.818e9687.js.map": "/static/js/main.818e9687.js.map",
     "787.334d8fa4.chunk.js.map": "/static/js/787.334d8fa4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e113fc2.css",
-    "static/js/main.7e2fdc7a.js"
+    "static/css/main.db810d88.css",
+    "static/js/main.818e9687.js"
   ]
 }
