@@ -24,9 +24,10 @@ const Home = () => {
         <CountdownSection />
         <TimelineSection />
         <VenueSection />
+        <FeeSection />
+
         <AboutUsSection />
         <Sponsors />
-        <FeeSection />
         <FAQSection />
       </div>
 
