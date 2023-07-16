@@ -116,7 +116,7 @@ const SponsorsSection = () => {
             >
               <br /> <br />
               <div className="sponsor__section6-sponser-title sponser-two-dual">
-                Media Partner
+                Platform Partner
               </div>
               <div className="sponsor__section6-sponser-list platinum">
                 <div className="sponsor__section6-sponser-image-track">
