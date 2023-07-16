@@ -126,7 +126,7 @@
         text-align: center;
         letter-spacing: 1px;    }
   
-    h3 {
+        .about_mobile h3 {
         color: white;
         font-family: 'Poppins';
         font-style: normal;
@@ -136,7 +136,7 @@
         letter-spacing: 15px;
     }
   
-    h4 {
+    .about_mobile h4 {
         color: #e13b3c;
         font-family: 'Poppins';
         font-style: normal;
@@ -147,7 +147,7 @@
     
     }
   
-    h5 {
+    .about_mobile h5 {
         color: white;
         font-family: 'Poppins';
         font-style: normal;

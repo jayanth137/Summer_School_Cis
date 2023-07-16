@@ -24,7 +24,7 @@ const communitypartner = [{
 
 const mediapartner = [{
     img:  Konsfhub,
-    txt: " KONFHUB",
+    txt: " ",
     link: " https://konfhub.com/summerschool",
 }, ];
 

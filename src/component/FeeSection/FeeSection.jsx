@@ -58,7 +58,7 @@ const PricingTable = () => {
             <div className="PriceFlex">
               <h2 className="price"> {pkg.price}</h2>
               <Link to="https://konfhub.com/summerschool#tickets">
-                <button margin="auto">Buy Now</button>
+                <button>Buy Now</button>
               </Link>
             </div>
           </div>
