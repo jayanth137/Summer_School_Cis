@@ -109,6 +109,16 @@ const Navbar = () => {
                   <h3 className="summerschool__navbar-menu-heading">Venue</h3>
                 </p>
               </li>
+              <li className="summerschool__navbar-navitem">
+                <p
+                  onClick={() => {
+                    gotoId('Fee');
+                    toggleMenu();
+                  }}
+                >
+                  <h3 className="summerschool__navbar-menu-heading">Fee</h3>
+                </p>
+              </li>
 
               <li className="summerschool__navbar-navitem">
                 <p
@@ -120,16 +130,6 @@ const Navbar = () => {
                   <h3 className="summerschool__navbar-menu-heading">
                     Sponsors
                   </h3>
-                </p>
-              </li>
-              <li className="summerschool__navbar-navitem">
-                <p
-                  onClick={() => {
-                    gotoId('Fee');
-                    toggleMenu();
-                  }}
-                >
-                  <h3 className="summerschool__navbar-menu-heading">Fee</h3>
                 </p>
               </li>
 
