@@ -10,6 +10,7 @@ import Sponsors from './component/Sponsors/SponsorsSection.jsx';
 import Welcome from './component/Welcome/Welcome';
 import VenueSection from './component/Venue/Venue';
 import FeeSection from './component/FeeSection/FeeSection';
+import TeamComp from './component/Team/TeamComp';
 const Home = () => {
   return (
     <>
@@ -29,6 +30,7 @@ const Home = () => {
         <AboutUsSection />
         <Sponsors />
         <FAQSection />
+        <TeamComp />
       </div>
 
       <div className="summerschool_footer-container">

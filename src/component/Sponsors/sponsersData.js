@@ -4,6 +4,8 @@ import IeeeCis from  "./sponsorlogo/ieeecis.png";
 import IeeeCusb from  "./sponsorlogo/ieeecusb.png";
 import CU from "./sponsorlogo/chandigarhuniversity.png";
 import Konsfhub from "./sponsorlogo/konfhub.png"
+import TechaMonth from "./sponsorlogo/Techamonth.jpg";
+import TechInvent from "./sponsorlogo/whitetechinvent.png"
 
 const communitypartner = [{
         img: Ieee,
@@ -22,10 +24,21 @@ const communitypartner = [{
     },
 ];
 
-const mediapartner = [{
+const platformpartner = [{
     img:  Konsfhub,
     txt: " ",
     link: " https://konfhub.com/summerschool",
+}, ];
+const Brandkitpartner = [{
+    img: TechInvent ,
+    txt: "Tech Invent ",
+    link: " https://konfhub.com/summerschool",
+
+},{
+    img: TechaMonth ,
+    txt: " Tech a Month",
+    link: " https://konfhub.com/summerschool",
+    
 }, ];
 
 const venuepartner = [{
@@ -37,7 +50,8 @@ const venuepartner = [{
 const sponsers = {
    communitypartner,
    venuepartner,
-   mediapartner
+   platformpartner,
+   Brandkitpartner
 };
 
 export default sponsers;

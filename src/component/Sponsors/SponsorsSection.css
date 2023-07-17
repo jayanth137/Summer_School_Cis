@@ -3,6 +3,10 @@
     color: white;
     padding-bottom: 100px;
 }
+.larger-image {
+
+     /* Increase size for the second image */
+  }
 
 .sponsor__section6-body {
     display: flex;

@@ -7,7 +7,7 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
-
+import Team from "./Team";
 import Home from "./home";
 
 import "./App.css";
@@ -19,6 +19,8 @@ export default class App extends Component {
           <ScrollToTop/>
           <Routes>
           < Route path = "/"  element = {<Home/> }/> 
+          < Route path = "/team"  element = {<Team/> }/> 
+
           </Routes> 
       </BrowserRouter>
       );
