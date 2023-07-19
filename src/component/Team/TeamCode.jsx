@@ -17,36 +17,10 @@ const Teamcode = () => {
         <div className="team-header-container"></div>
         <div className="team-title">The Organizers </div>
         <hr />
-        {window.innerWidth > 768 ? (
-          <>
-            <div className="team-members" style={{ margin: '5vh 0' }}>
-              {overAllCoordinaters.slice(0, 2).map((member, index) => (
-                <TeamCard
-                  key={index}
-                  img={member.Photo}
-                  name={member.Name}
-                  linkedin={member.linkedin}
-                  position={member.position}
-                  domain={member.Domain}
-                />
-              ))}
-            </div>
-            <div className="team-members" style={{ margin: '5vh 0' }}>
-              {overAllCoordinaters.slice(2, 5).map((member, index) => (
-                <TeamCard
-                  key={index}
-                  img={member.Photo}
-                  name={member.Name}
-                  linkedin={member.linkedin}
-                  position={member.position}
-                  domain={member.Domain}
-                />
-              ))}
-            </div>
-          </>
-        ) : (
-          <div className="team-members" style={{ margin: '  0' }}>
-            {overAllCoordinaters.map((member, index) => (
+        {/* {window.innerWidth > 768 ? ( */}
+        <>
+          <div className="team-members" style={{ margin: '5vh 0' }}>
+            {overAllCoordinaters.slice(0, 2).map((member, index) => (
               <TeamCard
                 key={index}
                 img={member.Photo}
@@ -57,7 +31,33 @@ const Teamcode = () => {
               />
             ))}
           </div>
-        )}
+          <div className="team-members" style={{ margin: '5vh 0' }}>
+            {overAllCoordinaters.slice(2, 5).map((member, index) => (
+              <TeamCard
+                key={index}
+                img={member.Photo}
+                name={member.Name}
+                linkedin={member.linkedin}
+                position={member.position}
+                domain={member.Domain}
+              />
+            ))}
+          </div>
+        </>
+        {/* // ) : (
+        //   <div className="team-members" style={{ margin: '  0' }}>
+        //     {overAllCoordinaters.map((member, index) => ( */}
+        {/* //       <TeamCard
+        //         key={index}
+        //         img={member.Photo}
+        //         name={member.Name}
+        //         linkedin={member.linkedin}
+        //         position={member.position}
+        //         domain={member.Domain}
+        //       />
+        //     ))}
+        //   </div>
+        // )} */}
 
         <div className="team-title">
           The Soul and Heart of <br /> IEEE SummerSchool
