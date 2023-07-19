@@ -29,8 +29,9 @@ const Home = () => {
 
         <AboutUsSection />
         <Sponsors />
-        <FAQSection />
         <TeamComp />
+
+        <FAQSection />
       </div>
 
       <div className="summerschool_footer-container">
