@@ -1,8 +1,8 @@
-import React from "react";
-import "./FAQSection.css";
-import file10 from "./file110.png";
-import AccordionDiv from "./QuestionAccordian";
-import { motion } from "framer-motion";
+import React from 'react';
+import './FAQSection.css';
+import file10 from './file110.png';
+import AccordionDiv from './QuestionAccordian';
+import { motion } from 'framer-motion';
 
 const FAQSection = () => {
   return (
@@ -18,7 +18,8 @@ const FAQSection = () => {
           <div className="faq_section-part1">
             <div className="faq_section-title">Have a query ?</div>
             <div className="faq_section-content">
-              IEEE CIS Summer school is beginner friendly, and designed keeping the requiremntes in mind.
+              IEEE CIS Summer school is beginner friendly, and designed keeping
+              the requirements in mind.
             </div>
           </div>
           <div className="faq_section-part2">
