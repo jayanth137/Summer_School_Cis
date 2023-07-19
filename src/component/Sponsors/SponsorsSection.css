@@ -1,8 +1,13 @@
 .sponsor__section6 {
     font-family: 'Poppins';
     color: white;
-    padding-bottom: 100px;
+ 
 }
+.larger-image {
+    width: 400px;
+    height: 800px;
+     /* Increase size for the second image */
+  }
 
 .sponsor__section6-body {
     display: flex;
