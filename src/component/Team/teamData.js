@@ -14,7 +14,7 @@ import Gagan from "./images/Gagan.png";
 import Jay from "./images/jayanth.png";
 import Salaudeen from "./images/salaudeen.jpg";
 import Sugandha from "./images/SugandhaSharma.png";
-import Bali  from "./images/RasmeetBali.jpg"
+import Bali  from "./images/Rasmeet.png"
 
  
 const overAllCoordinaters = [
