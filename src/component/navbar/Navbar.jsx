@@ -132,8 +132,18 @@ const Navbar = () => {
                   </h3>
                 </p>
               </li>
+              <li className="summerschool__navbar-navitem">
+                <p
+                  onClick={() => {
+                    gotoId('team');
+                    toggleMenu();
+                  }}
+                >
+                  <h3 className="summerschool__navbar-menu-heading">Team</h3>
+                </p>
+              </li>
 
-              <div style={{ position: 'relative' }}>
+              {/* <div style={{ position: 'relative' }}>
                 <li className="summerschool__navbar-navitem">
                   <p
                     onClick={() => {
@@ -146,7 +156,7 @@ const Navbar = () => {
                 </li>
 
                 <Dropdown open={open} setOpen={setOpen} />
-              </div>
+              </div> */}
             </ul>
           </nav>
         </div>

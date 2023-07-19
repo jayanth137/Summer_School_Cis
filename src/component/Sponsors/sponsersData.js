@@ -26,7 +26,7 @@ const communitypartner = [{
 
 const platformpartner = [{
     img:  Konsfhub,
-    txt: " ",
+    txt: " Konsfhub",
     link: " https://konfhub.com/summerschool",
 }, ];
 const Brandkitpartner = [{

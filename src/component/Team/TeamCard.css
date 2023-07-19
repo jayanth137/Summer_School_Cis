@@ -88,6 +88,9 @@ margin: 10px 0;
     font-size: 18px;
     text-align: center;
   }
+  .Name {
+    word-spacing: 0.1rem;
+  }
   
   .social a:hover {
     color: #0077b5;

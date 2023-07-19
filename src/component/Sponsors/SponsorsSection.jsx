@@ -170,7 +170,7 @@ const SponsorsSection = () => {
                       <img
                         style={{
                           width: '220px',
-                          height: '100px',
+                          height: '80px',
                           objectFit: 'contain',
                         }}
                         key={index}

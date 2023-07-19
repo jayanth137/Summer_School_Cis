@@ -31,19 +31,6 @@ const Teamcode = () => {
                 />
               ))}
             </div>
-
-            <div className="team-members" style={{ margin: '10vh 0' }}>
-              {overAllCoordinaters.slice(3, 5).map((member, index) => (
-                <TeamCard
-                  key={index}
-                  img={member.Photo}
-                  name={member.Name}
-                  linkedin={member.linkedin}
-                  position={member.position}
-                  domain={member.Domain}
-                />
-              ))}
-            </div>
           </>
         ) : (
           <div className="team-members" style={{ margin: '  0' }}>
@@ -63,9 +50,22 @@ const Teamcode = () => {
         <div className="team-title">
           The Soul and Heart of <br /> IEEE SummerSchool
         </div>
+
         <hr />
+        <div className="team-members" style={{ margin: '10vh 0' }}>
+          {overAllCoordinaters.slice(3, 6).map((member, index) => (
+            <TeamCard
+              key={index}
+              img={member.Photo}
+              name={member.Name}
+              linkedin={member.linkedin}
+              position={member.position}
+              domain={member.Domain}
+            />
+          ))}
+        </div>
         <div className="team-members" style={{ margin: '10vh  0' }}>
-          {overAllCoordinaters.slice(5, 9).map((member, index) => (
+          {overAllCoordinaters.slice(6, 9).map((member, index) => (
             <TeamCard
               key={index}
               img={member.Photo}
@@ -77,7 +77,7 @@ const Teamcode = () => {
           ))}
         </div>
         <div className="team-members" style={{ margin: '10vh 0' }}>
-          {overAllCoordinaters.slice(9, 13).map((member, index) => (
+          {overAllCoordinaters.slice(9, 12).map((member, index) => (
             <TeamCard
               key={index}
               img={member.Photo}
@@ -89,7 +89,7 @@ const Teamcode = () => {
           ))}
         </div>
         <div className="team-members" style={{ margin: '10vh 0' }}>
-          {overAllCoordinaters.slice(13, 15).map((member, index) => (
+          {overAllCoordinaters.slice(12, 15).map((member, index) => (
             <TeamCard
               key={index}
               img={member.Photo}

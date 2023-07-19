@@ -16,7 +16,7 @@ import Salaudeen from "./images/salaudeen.jpg"
  
 const overAllCoordinaters = [
   {
-    Name: "Ayan \n Hazara",
+    Name: "Ayan \n Hazra",
     Photo: Jesus,
     position: "IEEE CUSB Chairperson & Event Lead",
     Domain: "Core Team",
@@ -26,7 +26,7 @@ const overAllCoordinaters = [
     linkedin: "https://www.linkedin.com/in/hazra-ayan/",
   },
   {
-    Name: "Nirmiti \n Deshmukh",
+    Name: "Deshmukh  \n  Nirmiti  Akshay",
     Photo: Nirmiti,
     position: "IEEE CIS CUSB Chairperson",
     Domain: "Core Team",
