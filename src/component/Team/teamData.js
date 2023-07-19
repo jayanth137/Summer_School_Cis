@@ -12,9 +12,24 @@ import Palak from "./images/Palak.png";
 import Nirmiti from "./images/Nirmiti.png";
 import Gagan from "./images/Gagan.png";
 import Jay from "./images/jayanth.png";
-import Salaudeen from "./images/salaudeen.jpg"
+import Salaudeen from "./images/salaudeen.jpg";
+import Sugandha from "./images/SugandhaSharma.png";
+import Bali  from "./images/RasmeetBali.jpg"
+
  
 const overAllCoordinaters = [
+    {
+        Name: "Sugandha \n Sharma",
+        Photo: Sugandha,
+        position: "IEEE CUSB Branch Counsellor",
+        linkedin: "https://www.linkedin.com/in/sugandha-sharma-8a4090b7/",
+      },
+      {
+        Name: "Rasmeet S \n Bali",
+        Photo: Bali,
+        position: "IEEE CIS CUSB Chapter Advisor",
+        linkedin: "https://www.linkedin.com/in/rasmeet-s-bali-a8162310/",
+      },
   {
     Name: "Ayan \n Hazra",
     Photo: Jesus,

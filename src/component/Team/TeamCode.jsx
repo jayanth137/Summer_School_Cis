@@ -20,7 +20,19 @@ const Teamcode = () => {
         {window.innerWidth > 768 ? (
           <>
             <div className="team-members" style={{ margin: '5vh 0' }}>
-              {overAllCoordinaters.slice(0, 3).map((member, index) => (
+              {overAllCoordinaters.slice(0, 2).map((member, index) => (
+                <TeamCard
+                  key={index}
+                  img={member.Photo}
+                  name={member.Name}
+                  linkedin={member.linkedin}
+                  position={member.position}
+                  domain={member.Domain}
+                />
+              ))}
+            </div>
+            <div className="team-members" style={{ margin: '5vh 0' }}>
+              {overAllCoordinaters.slice(2, 5).map((member, index) => (
                 <TeamCard
                   key={index}
                   img={member.Photo}
@@ -53,7 +65,7 @@ const Teamcode = () => {
 
         <hr />
         <div className="team-members" style={{ margin: '10vh 0' }}>
-          {overAllCoordinaters.slice(3, 6).map((member, index) => (
+          {overAllCoordinaters.slice(5, 8).map((member, index) => (
             <TeamCard
               key={index}
               img={member.Photo}
@@ -65,7 +77,7 @@ const Teamcode = () => {
           ))}
         </div>
         <div className="team-members" style={{ margin: '10vh  0' }}>
-          {overAllCoordinaters.slice(6, 9).map((member, index) => (
+          {overAllCoordinaters.slice(8, 11).map((member, index) => (
             <TeamCard
               key={index}
               img={member.Photo}
@@ -77,7 +89,7 @@ const Teamcode = () => {
           ))}
         </div>
         <div className="team-members" style={{ margin: '10vh 0' }}>
-          {overAllCoordinaters.slice(9, 12).map((member, index) => (
+          {overAllCoordinaters.slice(11, 14).map((member, index) => (
             <TeamCard
               key={index}
               img={member.Photo}
@@ -89,7 +101,7 @@ const Teamcode = () => {
           ))}
         </div>
         <div className="team-members" style={{ margin: '10vh 0' }}>
-          {overAllCoordinaters.slice(12, 15).map((member, index) => (
+          {overAllCoordinaters.slice(14, 17).map((member, index) => (
             <TeamCard
               key={index}
               img={member.Photo}

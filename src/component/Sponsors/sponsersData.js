@@ -4,7 +4,7 @@ import IeeeCis from  "./sponsorlogo/ieeecis.png";
 import IeeeCusb from  "./sponsorlogo/ieeecusb.png";
 import CU from "./sponsorlogo/chandigarhuniversity.png";
 import Konsfhub from "./sponsorlogo/konfhub.png"
-import TechaMonth from "./sponsorlogo/Techamonth.jpg";
+import TechaMonth from "./sponsorlogo/techamoonth.png";
 import TechInvent from "./sponsorlogo/whitetechinvent.png"
 
 const communitypartner = [{
