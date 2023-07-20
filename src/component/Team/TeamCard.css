@@ -3,14 +3,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding:  30px;
+    padding: 2rem; 
     background-color: #f0f0f0;
     border-radius: 8px;
     transition: transform 0.3s;
-    width: 330px;
-    height: 48vh;
+    width: 35vh;
+    max-height: 55vh;
   }
-/* .team-card  .team-card-img::before {
+  
+  /* .team-card .team-card-img::before {
     content: '';
     width: 100%;
     height: 0;
@@ -23,12 +24,13 @@
     opacity: 0.9;
     transform: scale(3);
     transition: all 0.3s linear 0s;
-}
-.team-card:hover .team-card-img::before{
+  }
+  
+  .team-card:hover .team-card-img::before {
     height: 100%;
-
-}
-.team-card  .team-card-img::after{
+  }
+  
+  .team-card .team-card-img::after {
     content: '';
     width: 100%;
     height: 100%;
@@ -38,35 +40,37 @@
     top: 0;
     left: 0;
     z-index: -1;
-} */
+  } */
+  
   .team-card:hover {
     transform: scale(1.05);
   }
   
   .team-card-img img {
-    margin-top: 20px;
-    width: 150px;
-    height: 150px;
+    margin-top: 2rem; 
+    width: 9.375rem; 
+    height: 9.375rem; 
     border-radius: 50%;
     object-fit: contain;
-margin: 10px 0;
+    margin: 0.5rem 0;
+    position: static;
+    
   }
   
   .team-card-content {
     text-align: center;
-    margin: -10px;
+    margin: -1rem;
   }
   
   .domain {
     margin: 0;
-    font-size: 16px;
+    font-size: 1rem;
     color: #777777;
   }
   
   .title {
-    font-size: 18px;
-    margin: -10px;
-
+    font-size: 1.1rem;
+    margin: -1rem; 
     color: #e03a3c;
   }
   
@@ -85,9 +89,10 @@ margin: 10px 0;
   .social a {
     color: #000000;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem; 
     text-align: center;
   }
+  
   .Name {
     word-spacing: 0.1rem;
   }
@@ -95,13 +100,14 @@ margin: 10px 0;
   .social a:hover {
     color: #0077b5;
   }
+  
   @media screen and (max-width: 768px) {
     .team-card {
       width: 75%;
       height: auto;
       flex-direction: column;
       align-items: flex-start;
-      padding: 20px;
+      padding: 1.25rem; 
       margin: auto;
       display: flex;
       flex-direction: column;
@@ -111,17 +117,18 @@ margin: 10px 0;
   
     .team-card-img img {
       margin-top: 0;
-      margin-bottom: 15px;
-      width: 125px;
-      height: 125px;
+      margin-bottom: 1rem; 
+      width: 7.8125rem; 
+      height: 7.8125rem; 
     }
   
     .team-card-content {
-      text-align: Center;
+      text-align: center;
     }
   
     .title {
-      font-size: 16px;
+      font-size: 1rem;
     }
   }
+  
   
