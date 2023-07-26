@@ -20,6 +20,8 @@ const Welcome = () => {
               <h3>presents</h3>
               <h4>SUMMER SCHOOL</h4>
               <h5>Applied AI in Unmanned Vehicle</h5>
+              <h2>28 August - September 1</h2>
+
               <div className="button">
                 <Link to="https://konfhub.com/summerschool">
                   <LiquidButton>Register Now</LiquidButton>
@@ -34,6 +36,7 @@ const Welcome = () => {
               <h3>presents</h3>
               <h4>SUMMER SCHOOL</h4>
               <h5>Applied AI in Unmanned Vehicle</h5>
+              <h2>28 August - September 1</h2>
               <div className="button">
                 <Link to="https://konfhub.com/summerschool">
                   <LiquidButton>Register Now</LiquidButton>
