@@ -171,7 +171,7 @@ const SponsorsSection = () => {
                         style={{
                           width: '220px',
                           height: '100px',
-                          objectFit: index === 0 ? 'contain' : 'cover',
+                          objectFit: 'cover',
                         }}
                         key={index}
                         src={sponser.img}

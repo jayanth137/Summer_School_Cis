@@ -1,93 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .pricing-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 60px 0;
-  }
- 
-  
-  .pricing-card {
-    color: white;
-  }
-  
-  button {
-    background-color: #FF0000; /* Red */
-    color: white;
-  }
-  
-  
-  h1{
-text-align: center;   
- font-size: 2.5rem;
-    color: #ffffff;
-    font-family: 'Poppins';
-  }
- 
-  
-  .pricing-card {
-    width:300px;
-    margin: 20px;
-    padding: 30px;
-    text-align: center;
-    background-color: #202020;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 55px;
+}
 
-  h4{
-    color: #ffffff;
-    font-size: 1.2rem;
-    font-family: 'Poppins';
-    text-align: center;
-    padding: 20px 0;
-    }
-  
-  .price {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #E03A3C;
-    font-family: 'Poppins';
-  }
-  
-  ul {
-    list-style-type: none; 
+.pricing-card {
+  color: white;
+}
 
-    text-align: left;
-    padding: 0;
-    margin: 10px 0;
-    color: #ffffff;
-    
-    
-  }
-  ul li {
-    list-style: none; 
-    padding: 5px 10px;
-    margin-bottom: 5px;
-  }
-  
-  li {
-    list-style-type: disc;
-    margin-bottom: 5px;
-    font-family: 'Poppins';
-  }
- 
-  button {
-    background-color: #E03A3C;
-    color: #ffffff;
-    border: none;
-    margin: auto;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: 'Poppins';
-    
-  }
-  .Ticket{
-    color: #E03A3C;
-    font-size: 4rem;
-  }
+button {
+  background-color: #ff0000; /* Red */
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-family: 'Poppins';
+}
+
+.pricing-card {
+  width: 350px;
+  margin: 20px;
+  padding: 30px;
+
+  text-align: center;
+  background-color: #202020;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h5 {
+  text-align: left;
+  padding: 0;
+  margin: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+
+h4 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-family: 'Poppins';
+  text-align: center;
+  padding: 20px 0;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #e03a3c;
+  font-family: 'Poppins';
+}
+
+ul {
+  list-style-type: none;
+
+  text-align: left;
+  padding: 0;
+  margin: 10px 0;
+  color: #ffffff;
+}
+ul li {
+  list-style: none;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
+li {
+  list-style-type: disc;
+  margin-bottom: 5px;
+  font-family: 'Poppins';
+}
+
+button {
+  background-color: #e03a3c;
+  color: #ffffff;
+  border: none;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Poppins';
+}
+.Ticket {
+  color: #e03a3c;
+  font-size: 4rem;
+}
