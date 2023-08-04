@@ -1,6 +1,6 @@
-import { useState } from "react";
-import timelineData from "./TimelineData";
-import "./Timeline.css";
+import { useState } from 'react';
+import timelineData from './TimelineData';
+import './Timeline.css';
 
 const Timeline = () => {
   const [active, setActive] = useState(0);
@@ -11,18 +11,19 @@ const Timeline = () => {
         <div className="row-one">
           <div className="headers">
             <div
-              className={`boxed ${active === 0 ? "active-timelineOne" : ""}`}
+              className={`boxed ${active === 0 ? 'active-timelineOne' : ''}`}
               onClick={() => setActive(0)}
             >
               <div className="time-head">{timelineData[0].time}</div>
               <div className="desc-head">{timelineData[0].desc}</div>
-              <div className={`${active === 0 ? "arrow-down" : ""}`}></div>
+              <div className={`${active === 0 ? 'arrow-down' : ''}`}></div>
             </div>
           </div>
-          <div className={`${active === 0 ? "show-mob-time" : "hid-mob-time"}`}>
+          <div className={`${active === 0 ? 'show-mob-time' : 'hid-mob-time'}`}>
             <div
-              className={`timeline-card timeline-card-mobile ${active === 0 ? "show-mob-time" : "hid-mob-time"
-                }`}
+              className={`timeline-card timeline-card-mobile ${
+                active === 0 ? 'show-mob-time' : 'hid-mob-time'
+              }`}
             >
               <div className="timeline-card-header">
                 <div className="col-1">{timelineData[0].date}</div>
@@ -38,18 +39,19 @@ const Timeline = () => {
 
           <div className="headers">
             <div
-              className={`boxed ${active === 1 ? "active-timelineOne" : ""}`}
+              className={`boxed ${active === 1 ? 'active-timelineOne' : ''}`}
               onClick={() => setActive(1)}
             >
               <div className="time-head">{timelineData[1].time}</div>
               <div className="desc-head">{timelineData[1].desc}</div>
-              <div className={`${active === 1 ? "arrow-down" : ""}`}></div>
+              <div className={`${active === 1 ? 'arrow-down' : ''}`}></div>
             </div>
           </div>
-          <div className={`${active === 1 ? "show-mob-time" : "hid-mob-time"}`}>
+          <div className={`${active === 1 ? 'show-mob-time' : 'hid-mob-time'}`}>
             <div
-              className={`timeline-card timeline-card-mobile ${active === 1 ? "show-mob-time" : "hid-mob-time"
-                }`}
+              className={`timeline-card timeline-card-mobile ${
+                active === 1 ? 'show-mob-time' : 'hid-mob-time'
+              }`}
             >
               <div className="timeline-card-header">
                 <div className="col-1">{timelineData[1].date}</div>
@@ -57,7 +59,7 @@ const Timeline = () => {
               </div>
               <div>
                 <div className="timeline-card-body">
-                  {timelineData[1].descInDepth.split("\n").map((x) => (
+                  {timelineData[1].descInDepth.split('\n').map((x) => (
                     <span>
                       {x}
                       <br />
@@ -70,15 +72,15 @@ const Timeline = () => {
 
           <div className="headers">
             <div
-              className={`boxed ${active === 2 ? "active-timelineOne" : ""}`}
+              className={`boxed ${active === 2 ? 'active-timelineOne' : ''}`}
               onClick={() => setActive(2)}
             >
               <div className="time-head">{timelineData[2].time}</div>
               <div className="desc-head">{timelineData[2].desc}</div>
-              <div className={`${active === 2 ? "arrow-down" : ""}`}></div>
+              <div className={`${active === 2 ? 'arrow-down' : ''}`}></div>
             </div>
           </div>
-          <div className={`${active === 2 ? "show-mob-time" : "hid-mob-time"}`}>
+          <div className={`${active === 2 ? 'show-mob-time' : 'hid-mob-time'}`}>
             <div className="timeline-card timeline-card-mobile">
               <div className="timeline-card-header">
                 <div className="col-1">{timelineData[2].date}</div>
@@ -92,17 +94,17 @@ const Timeline = () => {
             </div>
           </div>
 
-          <div className="headers">
+          {/* <div className="headers">
             <div
-              className={`boxed ${active === 3 ? "active-timelineOne" : ""}`}
+              className={`boxed ${active === 3 ? 'active-timelineOne' : ''}`}
               onClick={() => setActive(3)}
             >
               <div className="time-head">{timelineData[3].time}</div>
               <div className="desc-head">{timelineData[3].desc}</div>
-              <div className={`${active === 3 ? "arrow-down" : ""}`}></div>
+              <div className={`${active === 3 ? 'arrow-down' : ''}`}></div>
             </div>
-          </div>
-          <div className={`${active === 3 ? "show-mob-time" : "hid-mob-time"}`}>
+          </div> */}
+          {/* <div className={`${active === 3 ? 'show-mob-time' : 'hid-mob-time'}`}>
             <div className="timeline-card timeline-card-mobile">
               <div className="timeline-card-header">
                 <div className="col-1">{timelineData[3].date}</div>
@@ -114,19 +116,19 @@ const Timeline = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="headers">
+          {/* <div className="headers">
             <div
-              className={`boxed ${active === 4 ? "active-timelineOne" : ""}`}
+              className={`boxed ${active === 4 ? 'active-timelineOne' : ''}`}
               onClick={() => setActive(4)}
             >
               <div className="time-head">{timelineData[4].time}</div>
               <div className="desc-head">{timelineData[4].desc}</div>
-              <div className={`${active === 4 ? "arrow-down" : ""}`}></div>
+              <div className={`${active === 4 ? 'arrow-down' : ''}`}></div>
             </div>
-          </div>
-          <div className={`${active === 4 ? "show-mob-time" : "hid-mob-time"}`}>
+          </div> */}
+          <div className={`${active === 4 ? 'show-mob-time' : 'hid-mob-time'}`}>
             <div className="timeline-card timeline-card-mobile">
               <div className="timeline-card-header">
                 <div className="col-1">{timelineData[4].date}</div>
@@ -139,10 +141,32 @@ const Timeline = () => {
               </div>
             </div>
           </div>
-
-          
         </div>
-
+        <div className="row-one">
+          <div className="headers">
+            <div
+              className={`boxed ${active === 3 ? 'active-timelineOne' : ''}`}
+              onClick={() => setActive(3)}
+            >
+              <div className="time-head">{timelineData[3].time}</div>
+              <div className="desc-head">{timelineData[3].desc}</div>
+              <div className={`${active === 3 ? 'arrow-down' : ''}`}></div>
+            </div>
+          </div>
+          <div className={`${active === 3 ? 'show-mob-time' : 'hid-mob-time'}`}>
+            <div className="timeline-card timeline-card-mobile">
+              <div className="timeline-card-header">
+                <div className="col-1">{timelineData[3].date}</div>
+                <div className="col-2">{timelineData[3].dateDesc}</div>
+              </div>
+              <div>
+                <div className="timeline-card-body">
+                  {timelineData[3].descInDepth}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="timeline-card timeline-card-xl">
           <div className="timeline-card-header">
             <div className="col-1">{timelineData[active].date}</div>
@@ -150,7 +174,7 @@ const Timeline = () => {
           </div>
           <div>
             <div className="timeline-card-body">
-              {timelineData[active].descInDepth.split("\n").map((x) => (
+              {timelineData[active].descInDepth.split('\n').map((x) => (
                 <span>
                   {x}
                   <br />
@@ -161,7 +185,7 @@ const Timeline = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Timeline
+export default Timeline;
