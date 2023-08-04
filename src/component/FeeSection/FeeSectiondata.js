@@ -8,11 +8,27 @@ export const packages = [
     ],
   },
   {
+    name: 'IEEE India Council Members (Accommodation + Food)',
+    price: '₹ 2300',
+    benefits: [
+      'Includes Accomodation(4 Days-3 Nights), Meals(4 times) and Student Kit.',
+      ' For Participants other Univeristies IEEE branches.                                ',
+    ],
+  },
+  {
     name: 'Regular Ticket  (No Accommodation / Food)',
-    price: '₹ 1375',
+    price: '₹ 1300',
     benefits: [
       'No Accomodation and Meal will be provided to the participants.',
       ' Particpants can be from Chandigarh University and Other Univeristies also',
+    ],
+  },
+  {
+    name: 'IEEE India Council Members ',
+    price: '₹ 1125',
+    benefits: [
+      'No Accomodation and Meal will be provided to the participants.',
+      ' Particpants can be from  Other Univeristies IEEE branches.',
     ],
   },
   {
