@@ -8,6 +8,8 @@ const Timeline = () => {
   return (
     <div className="headers-timeline_main">
       <div className="headers-timeline">
+        <h1>Summer School</h1>
+        <hr />
         <div className="row-one">
           <div className="headers">
             <div
@@ -142,6 +144,28 @@ const Timeline = () => {
             </div>
           </div>
         </div>
+        {active >= 0 && active <= 2 && (
+          <div className="timeline-card timeline-card-xl">
+            <div className="timeline-card-header">
+              <div className="col-1">{timelineData[active].date}</div>
+              <div className="col-2">{timelineData[active].dateDesc}</div>
+            </div>
+            <div>
+              <div className="timeline-card-body">
+                {timelineData[active].descInDepth
+                  .split('\n')
+                  .map((x, index) => (
+                    <span key={index}>
+                      {x}
+                      <br />
+                    </span>
+                  ))}
+              </div>
+            </div>
+          </div>
+        )}
+        <h1>Tech Fair</h1>
+        <hr />
         <div className="row-one">
           <div className="headers">
             <div
@@ -167,22 +191,24 @@ const Timeline = () => {
             </div>
           </div>
         </div>
-        <div className="timeline-card timeline-card-xl">
-          <div className="timeline-card-header">
-            <div className="col-1">{timelineData[active].date}</div>
-            <div className="col-2">{timelineData[active].dateDesc}</div>
-          </div>
-          <div>
-            <div className="timeline-card-body">
-              {timelineData[active].descInDepth.split('\n').map((x) => (
-                <span>
-                  {x}
-                  <br />
-                </span>
-              ))}
+        {timelineData.length > 3 && active === 3 && (
+          <div className="timeline-card timeline-card-xl">
+            <div className="timeline-card-header">
+              <div className="col-1">{timelineData[active].date}</div>
+              <div className="col-2">{timelineData[active].dateDesc}</div>
+            </div>
+            <div>
+              <div className="timeline-card-body">
+                {timelineData[active].descInDepth.split('\n').map((x) => (
+                  <span>
+                    {x}
+                    <br />
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
