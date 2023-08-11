@@ -47,11 +47,4 @@ export const packages = [
       ' No Accomodation/Food.',
     ],
   },
-  {
-    name: 'The Tech Fair in collaboration with Nvidia',
-    price: '₹ 500',
-    Team: 'Team : 1- 4',
-
-    benefits: ['No Accomodation and meal is provided.'],
-  },
 ];

@@ -164,33 +164,7 @@ const Timeline = () => {
             </div>
           </div>
         )}
-        <h1>Tech Fair</h1>
-        <hr />
-        <div className="row-one">
-          <div className="headers">
-            <div
-              className={`boxed ${active === 3 ? 'active-timelineOne' : ''}`}
-              onClick={() => setActive(3)}
-            >
-              <div className="time-head">{timelineData[3].time}</div>
-              <div className="desc-head">{timelineData[3].desc}</div>
-              <div className={`${active === 3 ? 'arrow-down' : ''}`}></div>
-            </div>
-          </div>
-          <div className={`${active === 3 ? 'show-mob-time' : 'hid-mob-time'}`}>
-            <div className="timeline-card timeline-card-mobile">
-              <div className="timeline-card-header">
-                <div className="col-1">{timelineData[3].date}</div>
-                <div className="col-2">{timelineData[3].dateDesc}</div>
-              </div>
-              <div>
-                <div className="timeline-card-body">
-                  {timelineData[3].descInDepth}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
         {timelineData.length > 3 && active === 3 && (
           <div className="timeline-card timeline-card-xl">
             <div className="timeline-card-header">
