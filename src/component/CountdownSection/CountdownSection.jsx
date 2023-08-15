@@ -16,7 +16,7 @@ const CountdownSection = () => {
       >
         <div className="event_countdown_main">
           <div>
-            <h1>Registration Closes in </h1>
+            <h1>Event Starts in </h1>
             <hr style={{ marginBottom: '70px' }} />
             {/* <h1>TBA</h1> */}
             <Timer />

@@ -8,8 +8,6 @@ const Timeline = () => {
   return (
     <div className="headers-timeline_main">
       <div className="headers-timeline">
-        <h1>Summer School</h1>
-        <hr />
         <div className="row-one">
           <div className="headers">
             <div
