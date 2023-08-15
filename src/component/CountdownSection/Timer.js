@@ -16,7 +16,7 @@ function getTimeLeft(endTime) {
 }
 
 function Timer() {
-  const endTime = new Date('2023-08-12T24:00:00').getTime();
+  const endTime = new Date('2023-08-28T10:00:00').getTime();
 
   const [timeLeft, setTimeLeft] = useState(getTimeLeft(endTime));
   const screenWidth = window.innerWidth;
