@@ -146,6 +146,7 @@ const SponsorsSection = () => {
                 </div>
               </div>
             </div>
+            {/* Brand Kit Partner */}
             <div
               className="two-group-class"
               style={{
@@ -187,6 +188,49 @@ const SponsorsSection = () => {
                 </div>
               </div>
             </div>{' '}
+            {/* Studentkit Sponsor */}
+            <div
+              className="two-group-class"
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center',
+              }}
+            >
+              <div className="sponsor__section6-sponser-title sponser-two-dual">
+                Brand Kit Partner
+              </div>
+              <div
+                className="sponsor__section6-sponser-list gold"
+                style={{ width: '600px' }}
+              >
+                <div className="sponsor__section6-sponser-image-track">
+                  {sponsers.studentkitPartner.map((sponser, index) => (
+                    <a href={sponser.link}>
+                      <img
+                        style={{
+                          width: '220px',
+                          height: '100px',
+                          objectFit: 'cover',
+                        }}
+                        key={index}
+                        src={sponser.img}
+                        alt={sponser.alt}
+                      />
+                      <div style={{ textAlign: 'center' }}>
+                        <p style={{ paddingTop: '2px' }}>
+                          {sponser.txt.split('\n').map((line, index) => (
+                            <React.Fragment key={index}>{line}</React.Fragment>
+                          ))}
+                        </p>
+                      </div>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>{' '}
+            {/* Collaboration Partner */}
             <div
               className="two-group-class"
               style={{
@@ -228,6 +272,7 @@ const SponsorsSection = () => {
                 </div>
               </div>
             </div>
+            {/* Workshop Partner */}
             <div
               className="two-group-class"
               style={{
@@ -246,6 +291,48 @@ const SponsorsSection = () => {
               >
                 <div className="sponsor__section6-sponser-image-track">
                   {sponsers.workshopPartner.map((sponser, index) => (
+                    <a href={sponser.link}>
+                      <img
+                        style={{
+                          width: '220px',
+                          height: '100px',
+                          objectFit: 'cover',
+                        }}
+                        key={index}
+                        src={sponser.img}
+                        alt={sponser.alt}
+                      />
+                      <div style={{ textAlign: 'center' }}>
+                        <p style={{ paddingTop: '2px' }}>
+                          {sponser.txt.split('\n').map((line, index) => (
+                            <React.Fragment key={index}>{line}</React.Fragment>
+                          ))}
+                        </p>
+                      </div>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+            {/* Refreshment Partner */}
+            <div
+              className="two-group-class"
+              style={{
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center',
+              }}
+            >
+              <div className="sponsor__section6-sponser-title sponser-two-dual">
+                Refreshment Sponsor{' '}
+              </div>
+              <div
+                className="sponsor__section6-sponser-list gold"
+                style={{ width: '600px' }}
+              >
+                <div className="sponsor__section6-sponser-image-track">
+                  {sponsers.refresmentPatner.map((sponser, index) => (
                     <a href={sponser.link}>
                       <img
                         style={{

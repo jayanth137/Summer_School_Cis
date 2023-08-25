@@ -7,6 +7,10 @@ import TechaMonth from './sponsorlogo/techamoonth.png';
 import TechInvent from './sponsorlogo/whitetechinvent.png';
 import amos from './sponsorlogo/2.jpg';
 import nvidia from './sponsorlogo/nvidia.png';
+import splendid from './sponsorlogo/splendid.png';
+import IDTA from './sponsorlogo/IDTA.png';
+import hell from './sponsorlogo/hell.png';
+import Growin from './sponsorlogo/CommunityPartner.jpg';
 
 const communitypartner = [
   {
@@ -22,6 +26,11 @@ const communitypartner = [
   {
     img: IeeeCusb,
     txt: ' IEEE Cusb',
+    link: ' ',
+  },
+  {
+    img: Growin,
+    txt: ' GROW IN',
     link: ' ',
   },
 ];
@@ -62,6 +71,27 @@ const workshopPartner = [
     txt: ' amos Aerospace',
     link: ' ',
   },
+  {
+    img: IDTA,
+    txt: 'Integrated Drone Training Academy',
+    link: ' ',
+  },
+];
+
+const studentkitPartner = [
+  {
+    img: splendid,
+    txt: 'splendid',
+    link: ' ',
+  },
+];
+
+const refresmentPatner = [
+  {
+    img: hell,
+    txt: 'Hell',
+    link: ' ',
+  },
 ];
 
 const sponsers = {
@@ -71,6 +101,8 @@ const sponsers = {
   Brandkitpartner,
   workshopPartner,
   collabpartner,
+  refresmentPatner,
+  studentkitPartner,
 };
 
 export default sponsers;
