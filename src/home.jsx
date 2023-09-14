@@ -11,6 +11,7 @@ import Welcome from './component/Welcome/Welcome';
 import VenueSection from './component/Venue/Venue';
 import FeeSection from './component/FeeSection/FeeSection';
 import TeamComp from './component/Team/TeamComp';
+import Images from './component/ImageSlider/Images';
 const Home = () => {
   return (
     <>
@@ -22,15 +23,15 @@ const Home = () => {
 
       <div className="summerschool_container summerschool_container_vertical">
         <Welcome />
-        <CountdownSection />
+        {/* <CountdownSection /> */}
+        <Images />
+        <imageSlider />
         <TimelineSection />
         <VenueSection />
         <FeeSection />
-
         <AboutUsSection />
         <Sponsors />
         <TeamComp />
-
         <FAQSection />
       </div>
 
