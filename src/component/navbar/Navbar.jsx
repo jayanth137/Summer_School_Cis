@@ -89,6 +89,18 @@ const Navbar = () => {
               <li className="summerschool__navbar-navitem">
                 <p
                   onClick={() => {
+                    gotoId('Glimpses');
+                    toggleMenu();
+                  }}
+                >
+                  <h3 className="summerschool__navbar-menu-heading">
+                    Glimpses
+                  </h3>
+                </p>
+              </li>
+              <li className="summerschool__navbar-navitem">
+                <p
+                  onClick={() => {
                     gotoId('timeline');
                     toggleMenu();
                   }}
@@ -229,6 +241,18 @@ const Navbar = () => {
             >
               <h3 className="summerschool__navbar-hamburger-menu-heading">
                 About Us
+              </h3>
+            </p>
+          </li>
+          <li className="summerschool__navbar-hamburger-navitem">
+            <p
+              onClick={() => {
+                gotoId('timeline');
+                toggleMenu();
+              }}
+            >
+              <h3 className="summerschool__navbar-hamburger-menu-heading">
+                Glimpses
               </h3>
             </p>
           </li>

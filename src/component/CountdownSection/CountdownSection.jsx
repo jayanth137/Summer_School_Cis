@@ -16,10 +16,10 @@ const CountdownSection = () => {
       >
         <div className="event_countdown_main">
           <div>
-            <h1>Event Starts in </h1>
+            <h1>Event Date </h1>
             <hr style={{ marginBottom: '70px' }} />
             {/* <h1>TBA</h1> */}
-            <Timer />
+            <h1> 28 August to 30 August</h1>
           </div>
         </div>
       </motion.div>
